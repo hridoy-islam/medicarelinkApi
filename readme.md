@@ -1,3 +1,10 @@
-# Deployment Link
+# MedicareLink API
 
-[Deployment URL](https://api.render.com/deploy/srv-csmech3qf0us73815n20?key=qw2FfGr-hv4)
+Backend API for the **Medicare Recruitment & Employee Management System**, designed to handle healthcare recruitment, employee lifecycle management, for Medicare UK.
+
+---
+
+## 🏥 Project Overview
+
+**MedicareLink API** is a scalable backend system that powers recruitment, staffing, and employee management for healthcare organizations.
+---
