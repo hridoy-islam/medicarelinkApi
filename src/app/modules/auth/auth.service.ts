@@ -28,7 +28,7 @@ function generateOtpAndExpiry() {
 
 
 const preRegister = async (firstName: string, email: string, otp: string) => {
-  const emailSubject = "Verify your Everycare Romford account";
+  const emailSubject = "Verify your Medicare Link account";
 
   try {
     const existingUser = await User.isUserExists(email);
@@ -299,7 +299,7 @@ const createUserIntoDB = async (payload: TCreateUser) => {
     await sendEmail(
       payload.email,
       "welcome_template",
-      "Welcome to Everycare Romford – Your account is active",
+      "Welcome to Medicare Link – Your account is active",
       payload.name
     );
   } catch (error) {
@@ -462,7 +462,7 @@ const requestOtp = async (email: string) => {
     otpExpiry,
     isUsed: false,
   });
-  const emailSubject = "Reset your Everycare Romford password";
+  const emailSubject = "Reset your Medicare Link password";
 
   await sendEmail(
     email,

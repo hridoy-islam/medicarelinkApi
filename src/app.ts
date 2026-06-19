@@ -58,7 +58,8 @@ app.use(
     origin: [
       "http://localhost:5173",
       "https://everycare.netlify.app",
-      "https://career.everycareromford.co.uk"
+      "https://career.everycareromford.co.uk",
+      "https://careercareer.medicarelink.co.uk"
    
     ],
     credentials: true,

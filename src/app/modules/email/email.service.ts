@@ -58,7 +58,7 @@ const createEmailIntoDB = async (payload: any) => {
 
       // 1. Replace basic variables
       replacedText = replacedText
-        .replace(/\[admin\]/g, "Everycare Romford")
+        .replace(/\[admin\]/g, "Medicare Link")
         .replace(/\[adminEmail\]/g, "admin@everycareromford.co.uk")
         .replace(/\[applicationStatus\]/g, applicationStatus)
         .replace(/\[applicationDate\]/g, applicationDate)

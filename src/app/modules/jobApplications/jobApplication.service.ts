@@ -177,7 +177,7 @@ const createJobApplicationIntoDB = async (
   );
 
   await sendEmailAdmin(
-    "admin@everycareromford.co.uk",
+    "mahitasnimul2@gmail.com",
     "job-application-admin",
     adminSubject,
     applicantName,
